@@ -52,41 +52,45 @@
 						<div class="row d-flex justify-content-center">
 							<div class="col-md-6 col-lg-7 col-xl-8 pt-3">
 								<h2 class="mb-3 tituloFormulario">Inventario Surftware</h2>
-								<form id="FormInventario" action="#" method="post">
+								<form method="post" action ="conexion.php">
 									<div class="form-row">
 										<div class="form-group col-lg-4 pr-4">
-											<label class="tituloLabel" for="nombre">Producto:</label>
-											<input type="text" value="" class="form-control mt-2 bordesInput" name="nombre" id="nombre" required>
+											<label class="tituloLabel" for="producto">Producto:</label>
+											<input type="text" value="" class="form-control mt-2 bordesInput" name="mercancia" id="mercancia">
 										</div>
 										<div class="form-group col-lg-4 pr-4">
-											<label class="tituloLabel" for="correo">Marca:</label>
-											<input type="email" value="" class="form-control mt-2 bordesInput" name="correo" id="correo" required>
+											<label class="tituloLabel" for="marca">Marca:</label>
+											<input type="text" value="" class="form-control mt-2 bordesInput" name="marca" id="marca">
 										</div>
                                         <div class="form-group col-lg-4 pr-4">
-											<label class="tituloLabel" for="correo">Modelo:</label>
-											<input type="email" value="" class="form-control mt-2 bordesInput" name="correo" id="correo" required>
+											<label class="tituloLabel" for="modelo">Modelo:</label>
+											<input type="modelo" value="" class="form-control mt-2 bordesInput" name="modelo" id="modelo">
 										</div>
 									</div>
 									<div class="form-row">
 										<div class="form-group col-lg-6 pr-4">
-											<label class="tituloLabel" for="ticket">Precio Compra:</label>
-											<input type="text" value="" class="form-control mt-2 bordesInput" name="ticket" id="ticket" required>
+											<label class="tituloLabel" for="precioCompra">Precio Compra:</label>
+											<input type="number" value="" class="form-control mt-2 bordesInput" name="precioCompra" id="precioCompra">
 										</div>
 										<div class="form-group col-lg-6 pr-4">
-											<label class="tituloLabel" for="telefono">Precio Venta:</label>
-											<input type="tel" value="" class="form-control mt-2 bordesInput" name="telefono" id="telefono" required>
+											<label class="tituloLabel" for="PrecioVenta">Precio Venta:</label>
+											<input type="number" value="" class="form-control mt-2 bordesInput" name="precioVenta" id="precioVenta">
 										</div>
 									</div>
                                     <div class="form-row">
 										<div class="form-group col-lg-6 pr-4">
-											<label class="tituloLabel" for="ticket">Existencia:</label>
-											<input type="text" value="" class="form-control mt-2 bordesInput" name="ticket" id="ticket" required>
+											<label class="tituloLabel" for="existencia">Existencia:</label>
+											<input type="number" value="" class="form-control mt-2 bordesInput" name="existencia" id="existencia">
 										</div>
 										<div class="form-group col-lg-6 pr-4">
-											<label class="tituloLabel" for="telefono">Almacén:</label>
-											<input type="tel" value="" class="form-control mt-2 bordesInput" name="telefono" id="telefono" required>
+											<label class="tituloLabel" for="almacen">Almacén:</label>
+											<input type="almacen" value="" class="form-control mt-2 bordesInput" name="almacen" id="almacen">
 										</div>
 									</div>
+									<button class="btn btn__orange btn__large font-weight-bold"
+										type="submit"> 
+										Consultar
+									</button>
 								</form>
 							</div>
 						</div>
